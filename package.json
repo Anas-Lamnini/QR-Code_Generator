@@ -1,0 +1,56 @@
+{
+  "name": "businessbot",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/gridfs-stream": "^0.5.33",
+    "@types/qr-image": "^3.2.3",
+    "@version/react-router-v3": "^1.0.0",
+    "apiai": "^4.0.3",
+    "axios": "^0.21.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "^4.8.0",
+    "gridfs-stream": "^1.1.1",
+    "localStorage": "^1.0.4",
+    "mongoose": "^5.11.6",
+    "mongoose-type-email": "^1.1.2",
+    "morgan": "^1.10.0",
+    "node-gyp": "^7.1.2",
+    "node-linkedin": "^0.5.6",
+    "node-pre-gyp": "^0.17.0",
+    "passport-linkedin": "^1.0.0",
+    "qr-image": "^3.2.0",
+    "react": "^17.0.1",
+    "react-bootstrap": "^0.31.5",
+    "react-bootstrap-modal": "^4.2.0",
+    "react-d3-basic": "^1.6.11",
+    "react-dom": "^16.14.0",
+    "react-helmet": "^5.2.1",
+    "react-modal": "^3.12.1",
+    "react-scripts": "^4.0.1",
+    "request": "^2.88.2",
+    "shortid": "^2.2.16",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
